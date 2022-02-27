@@ -32,4 +32,44 @@ header{
         font-weight: 600;
         text-transform: uppercase;
     }
+    .avatar-container{
+        height: 60px;
+        width: 60px;
+        position:relative;
+        cursor: pointer;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+        }
+        i{
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 20px;
+            color: $primary;
+        }
+    }
+    .profile-options-modal{
+        .profile-options-list{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li{
+                a{
+                    display: block;
+                    padding: 10px 0;
+                    color: $black2;
+                    i{
+                        display: inline-block;
+                        width: 18px;
+                        text-align: center;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
 }
