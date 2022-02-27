@@ -165,22 +165,23 @@ header{
             color: $primary;
         }
     }
-    .profile-options-modal{
-        .profile-options-list{
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            li{
-                a{
-                    display: block;
-                    padding: 10px 0;
-                    color: $black2;
-                    i{
-                        display: inline-block;
-                        width: 18px;
-                        text-align: center;
-                        margin-right: 5px;
-                    }
+}
+
+.profile-options-modal{
+    .profile-options-list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            a{
+                display: block;
+                padding: 10px 0;
+                color: $black2;
+                i{
+                    display: inline-block;
+                    width: 18px;
+                    text-align: center;
+                    margin-right: 5px;
                 }
             }
         }
