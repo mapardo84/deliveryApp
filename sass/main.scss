@@ -21,3 +21,15 @@ a{
         text-decoration: none;
     }
 }
+
+//Header
+header{
+    background: #fff;
+    padding: 10px 0;
+    box-shadow: 0 5px 10px rgba(204, 204, 204, 0.31);
+    h1{
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}

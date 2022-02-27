@@ -12497,3 +12497,15 @@ img {
 a:hover {
   text-decoration: none;
 }
+
+header {
+  background: #fff;
+  padding: 10px 0;
+  -webkit-box-shadow: 0 5px 10px rgba(204, 204, 204, 0.31);
+          box-shadow: 0 5px 10px rgba(204, 204, 204, 0.31);
+}
+header h1, header .h1 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
